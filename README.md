@@ -1,4 +1,4 @@
-# gresume-react
+# Resume with react
 Mi resumen curricular en ReactJS
 
 ### Install Dependencies
