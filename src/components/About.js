@@ -19,7 +19,7 @@ const About = ({avatar, name, profession, bio, address, created, social}) => {
         <p>{address}</p>
       </div>
         <div className='created'>
-        <p>Created with Reat</p>
+        <p>Created with React</p>
         </div>
       <Social social={social} />
     </div>
