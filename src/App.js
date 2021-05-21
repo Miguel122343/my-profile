@@ -9,7 +9,7 @@ class App extends Component {
   render() {
 
     const person = {
-      avatar: '/photo.jpg',
+      avatar: 'photo.jpg',
       name: 'Miguel Gonzalez',
       profession: 'FrontEnd & UI Designer Developer',
       bio: '❤ Desarrollador FrontEnd, Diseño de interfaces, Maquetación, UI, UX, Design First to Mobile.',
