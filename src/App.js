@@ -28,7 +28,7 @@ class App extends Component {
         {degree: '3°, 4° y 5° año de Bachillerato', institution: 'U.E. Antonio Sandoval', startDate: 'Oct 2016', endDate: 'Jun 2019', description: 'Estudios de 3°, 4° y 5° año de Bachiller, Obteniendo el Bachillerato a mis 17 años.'},
       ],
       certificate: [
-        {name: 'Bachillerato', institution: 'U.E. Antonio Sandoval', date: 'Jun 2019', description: 'Certificado de promoción de bachiller de la república bolivariana de venezuela' }
+        {name: 'Bachillerato', institution: 'U.E. Antonio Sandoval', date: 'Jun 2019', description: 'Certificado de Promoción de Bachiller de la República Bolivariana de Venezuela.' }
       ],
       skills: [
         {name: 'HTML5', percentage: '90%'},
