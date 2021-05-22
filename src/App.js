@@ -20,8 +20,8 @@ class App extends Component {
         {name: 'Instagram', url: 'https://www.instagram.com/Miguel122343/'},
       ],
       experience: [
-        {jobTitle: 'FrontEnd', company: 'InnovaTech', startDate: 'Jul 2020', endDate: 'Present', jobDescription: 'Desarrollo e integración de Maqueta. Forme Parte Del Equipo de Desarrollador FrontEnd'},
-        {jobTitle: 'FrontEnd', company: 'Inversiones Git de Venezuela', startDate: 'September 2019', endDate: 'Jan 2020', jobDescription: 'Forme Parte Del Equipo de Desarrollador FrontEnd'},
+        {id: 1, jobTitle: 'FrontEnd', company: 'InnovaTech', startDate: 'Jul 2020', endDate: 'Present', jobDescription: 'Desarrollo e integración de Maqueta. Forme Parte Del Equipo de Desarrollador FrontEnd'},
+        {id: 2, jobTitle: 'FrontEnd', company: 'Inversiones Git de Venezuela', startDate: 'September 2019', endDate: 'Jan 2020', jobDescription: 'Forme Parte Del Equipo de Desarrollador FrontEnd'},
       ],
       education: [
         {degree: '1° y 2° año de Bachillerato', institution: 'U.E.Instituto Eduardo Rohl,', startDate: 'Oct 2014', endDate: 'Jul 2016', description: 'Estudios de 1° y 2° año de Bachiler.'},
@@ -54,8 +54,7 @@ class App extends Component {
               profession={person.profession}
               bio={person.bio}
               address={person.address}
-              social={person.social}
-              create={person.created}/>
+              social={person.social}/>
           </div>
 
           <div className='content-wrapper'>
