@@ -18,9 +18,11 @@ const About = ({avatar, name, profession, bio, address, created, social}) => {
       <div className='address'>
         <p>{address}</p>
       </div>
-        <div className='created'>
-        <p>Created with React</p>
+        <div>
+            <span>e-mail: gonzalezmiguel@gmail.com</span> <br/>
+            <span>Phones: +57 321 9069839 / +57 321 4181812 </span>
         </div>
+        <div><p>Created with React</p></div>
       <Social social={social} />
     </div>
   );
